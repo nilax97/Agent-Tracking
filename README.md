@@ -45,13 +45,13 @@ On this, given the observation sequence, we had to estimate the agent's location
 
 The tasks included filtering, smoothing, most-likely path prediction. We modelled this environment for 2 grid sizes (5x5 and 25x25). The results are as follows (since we're using random, different seed values might result in slightly different results)
 
-![Probability Likelihood](filtering_prob.jpg "Probability Likelihood") ![Most Likely vs Ground Truth](filtering_most.jpg "Most Likely vs Ground Truth")
+![Probability Likelihood](plots/filtering_prob.jpg "Probability Likelihood") ![Most Likely vs Ground Truth](plots/filtering_most.jpg "Most Likely vs Ground Truth")
 *Filtering Task*
 
-![Probability Likelihood](smoothing_prob.jpg "Probability Likelihood") ![Most Likely vs Ground Truth](smoothing_most.jpg "Most Likely vs Ground Truth")
+![Probability Likelihood](plots/smoothing_prob.jpg "Probability Likelihood") ![Most Likely vs Ground Truth](plots/smoothing_most.jpg "Most Likely vs Ground Truth")
 *Smoothing Task*
 
-![Future Likelihood](future.jpg "Future Likelihood")
+![Future Likelihood](plots/future.jpg "Future Likelihood")
 
 
 
