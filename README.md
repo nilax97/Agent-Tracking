@@ -38,20 +38,20 @@ For more details refer to [problem_statement](problem_statement.pdf)
 
 ## Results
 
-![](plots/transistion_model.jpg =250x)
+![](plots/transistion_model.jpg | width=300)
 *This is the transistional model for the 5x5 grid*
 
 On this, given the observation sequence, we had to estimate the agent's location (across multiple tasks)
 
 The tasks included filtering, smoothing, most-likely path prediction. We modelled this environment for 2 grid sizes (5x5 and 25x25). The results are as follows (since we're using random, different seed values might result in slightly different results)
 
-![Probability Likelihood](plots/filtering_prob.jpg =250x) ![Most Likely vs Ground Truth](plots/filtering_most.jpg =250x)
+![Probability Likelihood](plots/filtering_prob.jpg | width=300) ![Most Likely vs Ground Truth](plots/filtering_most.jpg | width=300)
 *Probability Likelihood(left) and Most Likely vs Ground Truth(right) for Filtering Task*
 
-![Probability Likelihood](plots/smoothing_prob.jpg =250x) ![Most Likely vs Ground Truth](plots/smoothing_most.jpg =250x)
+![Probability Likelihood](plots/smoothing_prob.jpg | width=300) ![Most Likely vs Ground Truth](plots/smoothing_most.jpg | width=300)
 *Probability Likelihood(left) and Most Likely vs Ground Truth(right) for Smoothing Task*
 
-![Future Likelihood](plots/future.jpg =250x)
+![Future Likelihood](plots/future.jpg | width=300)
 *Future Likelihood*
 
 
