@@ -48,13 +48,13 @@ The tasks included filtering, smoothing, most-likely path prediction. We modelle
 
 ![Most Likely vs Ground Truth](plots/filtering_most.jpg)
 
-*Probability Likelihood(left) and Most Likely vs Ground Truth(right) for Filtering Task*
+*Probability Likelihood(top) and Most Likely vs Ground Truth(bottom) for Filtering Task*
 
 ![Probability Likelihood](plots/smoothing_prob.jpg) 
 
 ![Most Likely vs Ground Truth](plots/smoothing_most.jpg)
 
-*Probability Likelihood(left) and Most Likely vs Ground Truth(right) for Smoothing Task*
+*Probability Likelihood(top) and Most Likely vs Ground Truth(bottom) for Smoothing Task*
 
 ![Future Likelihood](plots/future.jpg)
 
