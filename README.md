@@ -10,6 +10,7 @@ Table of Contents
 * [Introduction](#introduction)
 * [Problem](#problem)
 * [Documentation](#documentation)
+* [Results](#results)
 * [Author](#author)
 * [License](#license)
 
@@ -27,6 +28,13 @@ This project was done as an assignment for the Spring 2019-20 course `COL864 - L
 sound at each time step was represented as a binary grid. The likelihood of
 hearing the two types of sounds can be considered independent.
 
+Following image is the 
+
+![Problem_plot](plots/question.jpg)
+*The spatial likelihood of hearing the presence or absence of a rotor
+sound (left) or a bump sound (right) over the 5 × 5 grid. The light squares
+represent probability 0.9 and dark square represents 0.1.*
+
 For more details refer to [problem_statement](problem_statement.pdf)
 
 ## Documentation
@@ -34,6 +42,8 @@ For more details refer to [problem_statement](problem_statement.pdf)
 The tasks included filtering, smoothing, most-likely path prediction. We modelled this environment for 2 grid sizes (5x5 and 25x25)
 
 For mode details refer to the [report](report.pdf)
+
+## Results
 
 ## Author
 
