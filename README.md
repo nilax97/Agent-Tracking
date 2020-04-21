@@ -9,7 +9,6 @@ Table of Contents
 
 * [Introduction](#introduction)
 * [Problem](#problem)
-* [Documentation](#documentation)
 * [Results](#results)
 * [Author](#author)
 * [License](#license)
@@ -37,13 +36,26 @@ represent probability 0.9 and dark square represents 0.1.*
 
 For more details refer to [problem_statement](problem_statement.pdf)
 
-## Documentation
+## Results
 
-The tasks included filtering, smoothing, most-likely path prediction. We modelled this environment for 2 grid sizes (5x5 and 25x25)
+![](plots/transistion_model.jpg)
+*This is the transistional model for the 5x5 grid*
+
+On this, given the observation sequence, we had to estimate the agent's location (across multiple tasks)
+
+The tasks included filtering, smoothing, most-likely path prediction. We modelled this environment for 2 grid sizes (5x5 and 25x25). The results are as follows (since we're using random, different seed values might result in slightly different results)
+
+![Probability Likelihood](filtering_prob.jpg "Probability Likelihood") ![Most Likely vs Ground Truth](filtering_most.jpg "Most Likely vs Ground Truth")
+*Filtering Task*
+
+![Probability Likelihood](smoothing_prob.jpg "Probability Likelihood") ![Most Likely vs Ground Truth](smoothing_most.jpg "Most Likely vs Ground Truth")
+*Smoothing Task*
+
+![Future Likelihood](future.jpg "Future Likelihood")
+
+
 
 For mode details refer to the [report](report.pdf)
-
-## Results
 
 ## Author
 
