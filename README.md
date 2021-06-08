@@ -83,6 +83,6 @@ The tasks included filtering, smoothing, most-likely path prediction. We modelle
  
 MIT License
 
-Copyright (c) 2020 Nilaksh Agarwal
+Copyright (c) 2021 Nilaksh Agarwal
 
 ***
